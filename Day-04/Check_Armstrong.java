@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Check_Armstrng {
+public class Check_Armstrong {
 
     public static void main(String[] args) {
         

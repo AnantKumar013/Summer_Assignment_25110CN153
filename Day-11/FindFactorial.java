@@ -14,7 +14,9 @@ public class FindFactorial {
 
     }
 
-    public static long fact(int num) {
+    // This is recursion version but for big numbers it can cause stack overflow
+
+    public static int fact(int num) {
 
         if (num == 0 || num == 1) {
 
