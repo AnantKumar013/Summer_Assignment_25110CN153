@@ -21,6 +21,8 @@ public class Check_Armstrong {
 
         cpyNum = num;
 
+
+        // performing while loop
         while (cpyNum > 0) {
 
             resultantNum += Math.pow((cpyNum % 10), NumberOfDigits);
