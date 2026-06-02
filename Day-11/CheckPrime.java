@@ -18,7 +18,7 @@ public class CheckPrime {
 
     public static boolean isPrime(int num) {
 
-        // By 6N +- 1
+        // By 6N + 1 and 6n - 1 rule
 
         if (num < 2) return false;
         if (num <= 3) return true;
