@@ -44,6 +44,9 @@ public class EvenAndOddCount {
 
         for (int num : arr) {
 
+
+            // Here I am treating 0 as neither odd neither even cause it show absence 
+            // if we want to include it we can just use (num & 1 == 0) and it will be treated as even 
             if ((num & 1) == 0 && num != 0) {
 
                 Evensum++;
