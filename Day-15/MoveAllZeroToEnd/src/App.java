@@ -17,25 +17,19 @@ public class App {
 
         }
 
-        int i = 0, j = arr.length - 1;
-        
-        while (i < j) {
-            
-            if (arr[i] == 0 && arr[j] != 0) {
-                
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
-                
-                i++;
-                j--;
-                
+        int i = 0;
+
+        for (int n : arr) {
+
+            if (n != 0) {
+
+                arr[i++] = n;
+
             }
-            
-            i++;
-            j--;
-            
+
         }
+
+        while (i < arr.length) arr[i++] = 0;
 
         System.out.println(Arrays.toString(arr));
 
